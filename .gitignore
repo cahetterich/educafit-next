@@ -1,0 +1,12 @@
+node_modules/
+.next/
+dist/
+build/
+.expo/
+.expo-shared/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
