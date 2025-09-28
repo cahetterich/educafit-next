@@ -1,6 +1,6 @@
 // app/api/users/route.js
 import { NextResponse } from 'next/server';
-import { users, createUser, sanitize } from '../../lib/mockDb';
+import { users, createUser, sanitize } from '../../../lib/mockDb';
 
 export async function GET() {
   return NextResponse.json(users.map(sanitize));
