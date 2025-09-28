@@ -13,3 +13,4 @@ Landing, manifesto e auth (login, signup, recovery) em Next (App Router), i18n (
 ```bash
 npm i
 npm run dev
+
